@@ -214,8 +214,10 @@ nav {
 }
 
 .wa {
-    background: #30aa00;
-    color: white;
+    background-color: transparent;
+    color: transparent;
+    border: 2px solid;
+    
 }
 
 .wa:hover {
@@ -255,4 +257,5 @@ footer {
     .service-grid {
         grid-template-columns: 1fr;
     }
+
 }
