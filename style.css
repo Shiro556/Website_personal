@@ -215,9 +215,8 @@ nav {
 
 .wa {
     background-color: transparent;
-    color: #ffffff; 
-    color: transparent;              /* jika ingin teks terlihat, ubah jadi warna lain */
-    text-shadow: 0 0 10px #5700b9;   /* neon ungu */
+    color: #ffffff;                  /* teks awal putih */
+    text-shadow: 0 0 8px #5700b9;    /* glow ungu */
     border: 2px solid #5700b9;       /* border neon ungu */
     padding: 10px 20px;
     border-radius: 8px;
@@ -225,11 +224,13 @@ nav {
 }
 
 .wa:hover {
-    background: #128c7e;             
-    box-shadow: 0 0 10px #25d366;    
-    border-color: #25d366;
-    color: #fff;                    
+    background: #128c7e;
+    box-shadow: 0 0 10px #25d366;    /* glow neon hijau */
+    border-color: #25d366;           /* border jadi neon hijau */
+    color: #ffffff;                  /* tetap putih saat hover */
+    text-shadow: 0 0 8px #25d366;    /* glow hijau */
 }
+
 
 .ig {
     background: #e4405f;
@@ -265,6 +266,7 @@ footer {
     }
 
 }
+
 
 
 
