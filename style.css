@@ -216,7 +216,7 @@ nav {
 .wa {
     background-color: transparent;
     color: transparent;
-    border: 2px solid;
+    text-shadow: 0 0 10px #5700b9;
     
 }
 
@@ -259,3 +259,4 @@ footer {
     }
 
 }
+
