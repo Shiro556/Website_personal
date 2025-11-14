@@ -215,6 +215,7 @@ nav {
 
 .wa {
     background-color: transparent;
+    color: #ffffff; 
     color: transparent;              /* jika ingin teks terlihat, ubah jadi warna lain */
     text-shadow: 0 0 10px #5700b9;   /* neon ungu */
     border: 2px solid #5700b9;       /* border neon ungu */
@@ -264,5 +265,6 @@ footer {
     }
 
 }
+
 
 
